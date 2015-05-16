@@ -4,9 +4,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+console.log(siteurl)
+
 window._skel_config = {
 	preset: 'standard',
-	prefix: '/theme/css/style',
+	prefix: siteurl+'/theme/css/style',
 	resetCSS: true,
 	breakpoints: {
 		'desktop': {
